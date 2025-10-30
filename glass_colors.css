@@ -1,3 +1,16 @@
+/* Шрифт 1 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playpen+Sans:wght@100..800&display=swap');
+
+
+body {
+    font-family: "Playpen Sans", 'Segoe UI Emoji', sans-serif;
+}
+
+.markdown-source-view.mod-cm6 .cm-scroller{
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Playpen Sans", 'Segoe UI Emoji', sans-serif;
+}
+
 :root{
     --transparent-dark: rgba(22, 22, 22, 0.6) !important;
     --transparent-white: rgba(255, 255, 255, 0.1) !important;
