@@ -28,6 +28,10 @@
     background-color: rgba(75, 75, 75, 0.14) !important;
 }
 
+.inline-title{
+    display: none;
+}
+
 
 /* HEADER ОКНА */
 .workspace-ribbon.side-dock-ribbon.mod-left::before {
