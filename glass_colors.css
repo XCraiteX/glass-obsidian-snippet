@@ -1,6 +1,6 @@
 :root{
     --transparent-dark: rgba(22, 22, 22, 0.6) !important;
-    --transparent-white: rgba(255, 255, 255, 0.05) !important;
+    --transparent-white: rgba(255, 255, 255, 0.1) !important;
 }
 
 .view-content{
@@ -33,12 +33,23 @@
 }
 
 /* ФОРМАТИРОВАНИЕ ТЕКСТ */
-.cm-header{
+.cm-header, h3, h4, h5, h6{
     color: #79c4fd !important;   
 }
 
-.cm-header-1, .cm-header-2{
+.cm-header-1, .cm-header-2, h1, h2{
     color: #d3d3d3 !important;
+}
+
+/* Inline-Code */
+.cm-inline-code{
+    background-color: var(--transparent-white) !important;
+}
+
+/* <HR/> */
+.el-hr hr, .hr hr {
+    margin: 10px 0 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 
