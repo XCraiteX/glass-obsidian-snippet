@@ -91,8 +91,11 @@ ul li {
 
 /* ТАБЛИЦЫ */
 td, th{
-    border: 1px solid rgba(255, 255, 2555, 0.4) !important;
-    text-align: center !important;
+    border: 1px solid rgba(255, 255, 2555, 0.2) !important;
+}
+
+td {
+    opacity: 0.8 !important;
 }
 
 .table-wrapper{
