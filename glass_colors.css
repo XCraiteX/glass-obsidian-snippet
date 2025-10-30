@@ -1,0 +1,142 @@
+:root{
+    --transparent-dark: rgba(22, 22, 22, 0.6) !important;
+    --transparent-white: rgba(255, 255, 255, 0.05) !important;
+}
+
+.view-content{
+    background-color: transparent !important;
+}
+
+.horizontal-main-container{
+    background: url('https://avatars.mds.yandex.net/i?id=f6b019141ef6120bac3ac3da2448ea55_l-5205265-images-thumbs&n=13'); 
+    /* background: url('https://images.pexels.com/photos/1379640/pexels-photo-1379640.jpeg');*/
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.workspace-split, .workspace-ribbon, .workspace-leaf{
+    background-color: transparent !important;
+}
+
+.workspace{
+    backdrop-filter: blur(2px);
+    background-color: rgba(22, 22, 22, 0.8) !important;
+}
+
+.view-header{
+    background-color: rgba(75, 75, 75, 0.14) !important;
+}
+
+
+/* HEADER ОКНА */
+.workspace-ribbon.side-dock-ribbon.mod-left::before {
+  background-color: transparent !important;
+}
+
+.workspace-tab-header-container{
+    background-color: rgba(78, 78, 78, 0.3) !important;
+}
+
+.titlebar-button-container{
+    background-color: rgba(22, 22, 22, 0) !important; 
+}
+
+.sidebar-toggle-button.mod-left {
+    background-color: rgba(78, 78, 78, 0.3) !important;
+}
+
+.is-active{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+
+/* ПРОФИЛЬ */
+.workspace-sidedock-vault-profile{
+    background-color: rgba(75, 75, 75, 0.2) !important;
+}
+
+
+/* МОДАЛЬНОЕ ОКНО */
+.modal-container{
+    backdrop-filter: blur(4px);
+}
+
+.modal{
+    background: var(--transparent-dark) !important;
+    border: none;
+}
+
+.modal-close-button{
+    z-index: 100;
+}
+
+.vertical-tab-content, .vertical-tab-header{
+    background-color: rgba(22, 22, 22, 0) !important; 
+} 
+
+
+/* ОВЕРЛЕЙ МЕНЮ (ПКМ) */
+.menu{
+    background: var(--transparent-dark) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+}
+
+
+/* ПРОМПТ ПОИСКА ФАЙЛОВ */
+.prompt{
+    background: var(--transparent-dark) !important;    
+    border: none;
+}
+
+
+/* КОД БЛОКИ */
+.HyperMD-codeblock{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+pre[class^="language-"] {
+  background: rgba(0, 0, 0, 0.3) !important;
+  color: #f8f8f2;
+}
+
+
+/* ГРАФ */
+.graph-controls{
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+    backdrop-filter: blur(6px);
+}
+
+input[type="text"], input[type="search"], textarea{
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: none;
+}
+
+
+/* КАНВАС */
+.canvas-wrapper{
+    background-color: transparent !important;
+}
+
+.canvas-control-item, .canvas-control-group{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+.canvas-node-container{
+    background-color: var(--transparent-dark);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.canvas-card-menu{
+    background: transparent !important;
+    box-shadow: none;
+}
+
+.canvas-menu{
+    background: var(--transparent-white) !important;
+    border: none !important;
+}
