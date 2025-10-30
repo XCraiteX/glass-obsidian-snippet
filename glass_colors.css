@@ -32,6 +32,15 @@
     display: none;
 }
 
+/* ФОРМАТИРОВАНИЕ ТЕКСТ */
+.cm-header{
+    color: #79c4fd !important;   
+}
+
+.cm-header-1, .cm-header-2{
+    color: #d3d3d3 !important;
+}
+
 
 /* HEADER ОКНА */
 .workspace-ribbon.side-dock-ribbon.mod-left::before {
