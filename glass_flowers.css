@@ -58,9 +58,9 @@ body {
     color: #d3d3d3 !important;
 }
 
-ul li p{
-    margin-bottom: 18px !important; /* Вертикальные отступы между <li> блоками */
-}
+/* ul li p{
+    margin-bottom: 18px !important; /* Вертикальные отступы между <li> блоками 
+} */
 ul li {
     margin-bottom: 4px !important; /* Вертикальные отступы между <li> строками */
 }
