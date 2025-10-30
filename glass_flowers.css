@@ -41,8 +41,16 @@
     color: #d3d3d3 !important;
 }
 
+ul li{
+    margin-bottom: 18px !important; /* Вертикальные отступы между <li> */
+}
+
+.cm-list-1{
+    margin-right: 4px !important; /* Отступ между маркером и текстом */
+}
+
 /* Inline-Code */
-.cm-inline-code{
+.cm-inline-code, code{
     background-color: var(--transparent-white) !important;
 }
 
