@@ -109,6 +109,12 @@ ul li {
   transform: translateX(20px);
 }
 
+a.external-link{
+    padding-inline-end: 1.4em !important;
+    background-position: right 0.2em center !important; /* сместить фон правее */
+}
+
+/* ТЕГИ */
 a.tag {
     color: #446ea5 !important;
     border-radius: 16px !important;
