@@ -35,11 +35,11 @@ body, h1, h2, h3, h4, h5, h6, p, strong, li,
 
 .workspace{
     backdrop-filter: blur(2px);
-    background-color: rgba(22, 22, 22, 0.84) !important;
+    background-color: rgba(18, 18, 18, 0.88) !important;
 }
 
 .view-header{
-    background-color: rgba(75, 75, 75, 0.14) !important;
+    background-color: rgba(60, 60, 60, 0.14) !important;
 }
 
 .inline-title{
@@ -48,15 +48,19 @@ body, h1, h2, h3, h4, h5, h6, p, strong, li,
 
 /* ФОРМАТИРОВАНИЕ ТЕКСТ */
 .cm-header, h3, h4, h5, h6{
+    opacity: 0.9 !important;
     font-weight: 600 !important;
     color: transparent !important;
-    background-image: linear-gradient(180deg, #a3cff0, #65bcff);
+    background-image: linear-gradient(180deg, #9ac4e3, #65ace2); /* более нейтральный */
+    /* Старый более яркий */
+    /* background-image: linear-gradient(180deg, #a3cff0, #65bcff); */
     -webkit-background-clip: text;
     background-clip: text;
 }
 
 .cm-header-1, .cm-header-2, h1, h2{
     color: #d3d3d3 !important;
+    opacity: 0.9 !important;
 }
 
 /* Лёгкое обесцвечивание текста */
@@ -78,7 +82,9 @@ ul li {
 .cm-strong, strong{
     font-weight: 600 !important;
     color: transparent !important;
-    background-image: linear-gradient(160deg, rgb(253, 201, 255), rgb(241, 110, 241));
+    background-image: linear-gradient(160deg, rgb(219, 166, 220), rgb(215, 103, 215)); /* более нейтральный */
+    /* Старый более яркий */
+    /* background-image: linear-gradient(160deg, rgb(253, 201, 255), rgb(241, 110, 241)); */
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -162,7 +168,7 @@ td {
 }
 
 .workspace-tab-header-container{
-    background-color: rgba(78, 78, 78, 0.3) !important;
+    background-color: rgba(70, 70, 70, 0.3) !important;
 }
 
 .titlebar-button-container{
