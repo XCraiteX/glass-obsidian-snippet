@@ -78,6 +78,38 @@ ul li {
     background-clip: text;
 }
 
+/* ПОДСВЕЧИВАНИЕ ФОРМАТИРОВАНИЕМ */
+.cm-highlight {
+    padding: 0 10px !important;
+    background-color: #5566a9 !important;
+    border-radius: 4px;
+}
+
+
+/* ФОРМАТИРОВАНИЕ ССЫЛОК */
+.markdown-preview-view a,
+.markdown-source-view a,
+.cm-link {
+  color: #d6ade7 !important;
+  transition: 0.2s;
+  border-radius: 4px;
+  padding: 1px 2px;
+}
+
+.markdown-preview-view a:hover,
+.markdown-source-view a:hover,
+.cm-link:hover {
+  color: #f8e9ff !important;
+  cursor: pointer;
+  transform: translateX(20px);
+}
+
+/* УБИРАЕМ ЖЁЛТУЮ ПОДСВЕТКУ */
+.is-flashing {
+  background: none !important;
+}
+
+
 /* Inline-Code */
 .cm-inline-code, code{
     background-color: var(--transparent-white) !important;
