@@ -59,6 +59,11 @@ body, h1, h2, h3, h4, h5, h6, p, strong, li,
     color: #d3d3d3 !important;
 }
 
+/* Лёгкое обесцвечивание текста */
+p, .cm-line {
+    opacity: 0.9 !important;
+}
+
 /* ul li p{
     margin-bottom: 18px !important; /* Вертикальные отступы между <li> блоками 
 } */
@@ -103,6 +108,17 @@ ul li {
   cursor: pointer;
   transform: translateX(20px);
 }
+
+a.tag {
+    color: #446ea5 !important;
+    border-radius: 16px !important;
+    padding: 2px 10px;
+}
+
+.cm-hashtag {
+    padding: 2px 0 2px 0px;
+}
+
 
 /* УБИРАЕМ ЖЁЛТУЮ ПОДСВЕТКУ */
 .is-flashing {
