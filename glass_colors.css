@@ -1,101 +1,137 @@
 /* Шрифт 1 */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playpen+Sans:wght@100..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playpen+Sans:wght@100..800&display=swap");
 
-
-body, h1, h2, h3, h4, h5, h6, p, strong, li,
-.el-h1, .el-h2, .el-h3, .el-h4, .el-h5, .el-h6{
-    font-family: "Playpen Sans", 'Segoe UI Emoji', sans-serif;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+strong,
+li,
+.el-h1,
+.el-h2,
+.el-h3,
+.el-h4,
+.el-h5,
+.el-h6 {
+  font-family: "Playpen Sans", "Segoe UI Emoji", sans-serif;
 }
 
-.markdown-source-view.mod-cm6 .cm-scroller{
-    /* font-family: "Nunito", sans-serif; */
-    font-family: "Playpen Sans", 'Segoe UI Emoji', sans-serif;
+.markdown-source-view.mod-cm6 .cm-scroller {
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "Playpen Sans", "Segoe UI Emoji", sans-serif;
 }
 
-:root{
-    --transparent-dark: rgba(22, 22, 22, 0.6) !important;
-    --transparent-white: rgba(255, 255, 255, 0.1) !important;
+:root {
+  --transparent-dark: rgba(22, 22, 22, 0.6) !important;
+  --transparent-white: rgba(255, 255, 255, 0.1) !important;
 }
 
-.view-content{
-    background-color: transparent !important;
+.view-content {
+  background-color: transparent !important;
 }
 
-.horizontal-main-container{
-    background: url('https://avatars.mds.yandex.net/i?id=f6b019141ef6120bac3ac3da2448ea55_l-5205265-images-thumbs&n=13'); 
-    /* background: url('https://images.pexels.com/photos/1379640/pexels-photo-1379640.jpeg');*/
-    
-    background-position: center;
-    background-size: cover;
+.horizontal-main-container {
+  background: url("https://avatars.mds.yandex.net/i?id=f6b019141ef6120bac3ac3da2448ea55_l-5205265-images-thumbs&n=13");
+  /* background: url('https://images.pexels.com/photos/1379640/pexels-photo-1379640.jpeg');*/
+
+  background-position: center;
+  background-size: cover;
 }
 
-.workspace-split, .workspace-ribbon, .workspace-leaf{
-    background-color: transparent !important;
+.workspace-split,
+.workspace-ribbon,
+.workspace-leaf {
+  background-color: transparent !important;
 }
 
-.workspace{
-    backdrop-filter: blur(2px);
-    background-color: rgba(18, 18, 18, 0.88) !important;
+.workspace {
+  backdrop-filter: blur(2px);
+  background-color: rgba(18, 18, 18, 0.88) !important;
 }
 
-.view-header{
-    background-color: rgba(60, 60, 60, 0.14) !important;
+.view-header {
+  background-color: rgba(60, 60, 60, 0.14) !important;
 }
 
-.inline-title{
-    display: none;
+.inline-title {
+  display: none;
+}
+
+/* SCROLL БЛОКИ */
+.popover {
+  background: rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(6px);
 }
 
 /* ФОРМАТИРОВАНИЕ ТЕКСТ */
-.cm-header, h3, h4, h5, h6{
-    opacity: 0.9 !important;
-    font-weight: 600 !important;
-    color: transparent !important;
-    background-image: linear-gradient(180deg, #9ac4e3, #65ace2); /* более нейтральный */
-    /* Старый более яркий */
-    /* background-image: linear-gradient(180deg, #a3cff0, #65bcff); */
-    -webkit-background-clip: text;
-    background-clip: text;
+.cm-header,
+h4,
+h5,
+h6 {
+  opacity: 0.9 !important;
+  font-weight: 600 !important;
+  color: transparent !important;
+  background-image: linear-gradient(180deg, #9ac4e3, #65ace2); /* более нейтральный */
+  /* Старый более яркий */
+  /* background-image: linear-gradient(180deg, #a3cff0, #65bcff); */
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
-.cm-header-1, .cm-header-2, h1, h2{
-    color: #d3d3d3 !important;
-    opacity: 0.9 !important;
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+h1,
+h2,
+h3 {
+  color: #d3d3d3 !important;
+  opacity: 0.9 !important;
 }
 
 /* Лёгкое обесцвечивание текста */
-p, .cm-line {
-    opacity: 0.9 !important;
+p,
+.cm-line {
+  /*opacity: 0.9 !important;*/
+  color: rgba(255, 255, 255, 0.8);
 }
+
+/*strong, .cm-strong {
+	color: rgba(255, 255, 255, 0.8);
+}*/
 
 /* ul li p{
     margin-bottom: 18px !important; /* Вертикальные отступы между <li> блоками 
 } */
 ul li {
-    margin-bottom: 4px !important; /* Вертикальные отступы между <li> строками */
+  margin-bottom: 4px !important; /* Вертикальные отступы между <li> строками */
 }
 
-.cm-list-1{
-    margin-right: 4px !important; /* Отступ между маркером и текстом */
+.cm-list-1 {
+  margin-right: 4px !important; /* Отступ между маркером и текстом */
 }
 
-.cm-strong, strong{
-    font-weight: 600 !important;
-    color: transparent !important;
-    background-image: linear-gradient(160deg, rgb(219, 166, 220), rgb(215, 103, 215)); /* более нейтральный */
-    /* Старый более яркий */
-    /* background-image: linear-gradient(160deg, rgb(253, 201, 255), rgb(241, 110, 241)); */
-    -webkit-background-clip: text;
-    background-clip: text;
+.cm-strong,
+strong {
+  font-weight: 600 !important;
+  /*opacity: 1 !important;*/
+  color: transparent !important;
+  background-image: linear-gradient(160deg, rgb(219, 166, 220), rgb(215, 103, 215)); /* более нейтральный */
+  /* Старый более яркий */
+  /* background-image: linear-gradient(160deg, rgb(253, 201, 255), rgb(241, 110, 241)); */
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /* ПОДСВЕЧИВАНИЕ ФОРМАТИРОВАНИЕМ */
 .cm-highlight {
-    padding: 0 10px !important;
-    background-color: #5566a9 !important;
-    border-radius: 4px;
+  padding: 0 10px !important;
+  background-color: #5566a9 !important;
+  border-radius: 4px;
 }
-
 
 /* ФОРМАТИРОВАНИЕ ССЫЛОК */
 .markdown-preview-view a,
@@ -115,118 +151,114 @@ ul li {
   transform: translateX(20px);
 }
 
-a.external-link{
-    padding-inline-end: 1.4em !important;
+a.external-link {
+  padding-inline-end: 1.4em !important;
 }
 
 /* ТЕГИ */
 a.tag {
-    color: #446ea5 !important;
-    border-radius: 16px !important;
-    padding: 2px 10px;
+  color: #446ea5 !important;
+  border-radius: 16px !important;
+  padding: 2px 10px;
 }
 
 .cm-hashtag {
-    padding: 2px 0 2px 0px;
+  padding: 2px 0 2px 0px;
 }
-
 
 /* УБИРАЕМ ЖЁЛТУЮ ПОДСВЕТКУ */
 .is-flashing {
   background: none !important;
 }
 
-
 /* Inline-Code */
-.cm-inline-code, code{
-    background-color: var(--transparent-white) !important;
+.cm-inline-code,
+code {
+  background-color: var(--transparent-white) !important;
 }
 
 /* <HR/> */
-.el-hr hr, .hr hr {
-    margin: 10px 0 !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+.el-hr hr,
+.hr hr {
+  margin: 10px 0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 /* ТАБЛИЦЫ */
-td, th{
-    border: 1px solid rgba(255, 255, 2555, 0.2) !important;
+td,
+th {
+  border: 1px solid rgba(255, 255, 2555, 0.2) !important;
 }
 
 td {
-    opacity: 0.8 !important;
+  opacity: 0.8 !important;
 }
 
-.table-wrapper{
-    border: none !important;
+.table-wrapper {
+  border: none !important;
 }
-
 
 /* HEADER ОКНА */
 .workspace-ribbon.side-dock-ribbon.mod-left::before {
   background-color: transparent !important;
 }
 
-.workspace-tab-header-container{
-    background-color: rgba(70, 70, 70, 0.3) !important;
+.workspace-tab-header-container {
+  background-color: rgba(70, 70, 70, 0.3) !important;
 }
 
-.titlebar-button-container{
-    background-color: rgba(22, 22, 22, 0) !important; 
+.titlebar-button-container {
+  background-color: rgba(22, 22, 22, 0) !important;
 }
 
 .sidebar-toggle-button.mod-left {
-    background-color: rgba(78, 78, 78, 0.3) !important;
+  background-color: rgba(78, 78, 78, 0.3) !important;
 }
 
-.is-active{
-    background-color: rgba(255, 255, 255, 0.1) !important;
+.is-active {
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }
-
 
 /* ПРОФИЛЬ */
-.workspace-sidedock-vault-profile{
-    background-color: rgba(75, 75, 75, 0.2) !important;
+.workspace-sidedock-vault-profile {
+  background-color: rgba(75, 75, 75, 0.2) !important;
 }
-
 
 /* МОДАЛЬНОЕ ОКНО */
-.modal-container{
-    backdrop-filter: blur(4px);
+.modal-container {
+  backdrop-filter: blur(4px);
 }
 
-.modal{
-    background: var(--transparent-dark) !important;
-    border: none;
+.modal {
+  background: var(--transparent-dark) !important;
+  border: none;
 }
 
-.modal-close-button{
-    z-index: 100;
+.modal-close-button {
+  z-index: 100;
 }
 
-.vertical-tab-content, .vertical-tab-header{
-    background-color: rgba(22, 22, 22, 0) !important; 
-} 
-
+.vertical-tab-content,
+.vertical-tab-header {
+  background-color: rgba(22, 22, 22, 0) !important;
+}
 
 /* ОВЕРЛЕЙ МЕНЮ (ПКМ) */
-.menu{
-    background: var(--transparent-dark) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(4px);
+.menu {
+  background: var(--transparent-dark) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
 }
-
 
 /* ПРОМПТ ПОИСКА ФАЙЛОВ */
-.prompt{
-    background: var(--transparent-dark) !important;    
-    border: none;
+.prompt {
+  background: var(--transparent-dark) !important;
+  border: none;
 }
 
-
 /* КОД БЛОКИ */
-.HyperMD-codeblock{
-    background-color: rgba(0, 0, 0, 0.3) !important;
+.HyperMD-codeblock {
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 pre[class^="language-"] {
@@ -235,44 +267,46 @@ pre[class^="language-"] {
 }
 
 pre[class^="language-"] code {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 /* ГРАФ */
-.graph-controls{
-    background: transparent !important;
-    border: 1px solid rgba(255, 255, 255, 0) !important;
-    backdrop-filter: blur(6px);
+.graph-controls {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blur(6px);
 }
 
-input[type="text"], input[type="search"], textarea{
-    background: rgba(255, 255, 255, 0.1) !important;
-    border: none;
+input[type="text"],
+input[type="search"],
+textarea {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: none;
 }
-
 
 /* КАНВАС */
-.canvas-wrapper{
-    background-color: transparent !important;
+.canvas-wrapper {
+  background-color: transparent !important;
 }
 
-.canvas-control-item, .canvas-control-group{
-    background-color: transparent !important;
-    border: none !important;
-    box-shadow: none;
+.canvas-control-item,
+.canvas-control-group {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none;
 }
 
-.canvas-node-container{
-    background-color: var(--transparent-dark);
-    border: 1px solid rgba(255, 255, 255, 0.4);
+.canvas-node-container {
+  background-color: var(--transparent-dark);
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-.canvas-card-menu{
-    background: transparent !important;
-    box-shadow: none;
+.canvas-card-menu {
+  background: transparent !important;
+  box-shadow: none;
 }
 
-.canvas-menu{
-    background: var(--transparent-white) !important;
-    border: none !important;
+.canvas-menu {
+  background: var(--transparent-white) !important;
+  border: none !important;
 }
